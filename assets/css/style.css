@@ -11,20 +11,47 @@
     font-family: Folks;
     src: url(../fonts/Folks-Normal.ttf);
   }
+  @font-face {
+    font-family: Press-Start-2P;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
 
 body {
-    background-color: rgb(245, 235, 235);
+    background-color: rgb(2, 0, 134);
+}
+
+div {
+    width: 600px;
+    height: 600px;
+    background: rgb(142, 0, 207);
+    border-radius: 0 300px 300px 0;
 }
 
 h1 {
-    color: rgb(199, 47, 72);
-    font-family: Dumb;
-    font-size: 100px;
+    color: rgb(0, 0, 0);
+    font-family: Press-Start-2P;
+    font-size: 90px;
+    padding-top: 20%;
 }
 h2 {
     color: blue;
-    font-family: Arch;
+    font-family: Press-Start-2P;
 }
+
 li {
-    font-family: Folks;  
+    font-family: Press-Start-2P;
+    list-style-type:none;
+    position:relative
+}
+
+li::before{
+    position:absolute;
+    top:calc(50% - 8px);
+    left:-22px;content:"";
+    width:2px;height:2px;
+    color:#000000;
+    box-shadow:8px 2px,10px 2px,6px 4px,8px 4px,10px 4px,12px 4px,4px 6px,6px 6px,12px 6px,14px 6px,4px 8px,6px 8px,12px 8px,14px 8px,6px 10px,8px 10px,10px 10px,12px 10px,8px 12px,10px 12px
 }

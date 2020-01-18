@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Dumb;
+    src: url(../fonts/3Dumb.ttf);
+  }
+
+  @font-face {
+    font-family: Arch;
+    src: url(../fonts/ArchitectsDaughter.ttf);
+  }
+  @font-face {
+    font-family: Folks;
+    src: url(../fonts/Folks-Normal.ttf);
+  }
+
+body {
+    background-color: rgb(245, 235, 235);
+}
+
+h1 {
+    color: rgb(199, 47, 72);
+    font-family: Dumb;
+    font-size: 100px;
+}
+h2 {
+    color: blue;
+    font-family: Arch;
+}
+li {
+    font-family: Folks;  
+}

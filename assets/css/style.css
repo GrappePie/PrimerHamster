@@ -1,16 +1,4 @@
-@font-face {
-    font-family: Dumb;
-    src: url(../fonts/3Dumb.ttf);
-  }
 
-  @font-face {
-    font-family: Arch;
-    src: url(../fonts/ArchitectsDaughter.ttf);
-  }
-  @font-face {
-    font-family: Folks;
-    src: url(../fonts/Folks-Normal.ttf);
-  }
   @font-face {
     font-family: Press-Start-2P;
     font-style: normal;
@@ -24,8 +12,8 @@ body {
 }
 
 div {
-    width: 600px;
-    height: 600px;
+    width: 750px;
+    height: 640px;
     background: rgb(142, 0, 207);
     border-radius: 0 300px 300px 0;
 }
@@ -33,8 +21,8 @@ div {
 h1 {
     color: rgb(0, 0, 0);
     font-family: Press-Start-2P;
-    font-size: 90px;
-    padding-top: 20%;
+    font-size: 40px;
+    padding-top: 15%;
 }
 h2 {
     color: blue;
